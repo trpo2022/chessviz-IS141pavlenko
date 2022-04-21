@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "chess.h"
+#include <libchessviz/chess.h>
 #define n 9
 #define str 18
 

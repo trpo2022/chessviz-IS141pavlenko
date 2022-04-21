@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "chess.h"
+#include <libchessviz/chess.h>
 
 
 int move(int *early_pos, int *last_pos,int fl , char board[n][n])

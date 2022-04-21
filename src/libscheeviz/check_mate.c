@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "chess.h"
+#include <libchessviz/chess.h>
 
 int check_mate(char *tmp)
 {
