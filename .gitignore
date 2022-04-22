@@ -1,3 +1,9 @@
 
 *Makefile~
 *main
+*obj/src/chessviz/*.d
+*obj/src/chessviz/*.o
+*obj/src/libchessviz/*.d
+*obj/src/libchessviz/*.o
+
+
