@@ -30,9 +30,9 @@ int main()
     int *early_pos = malloc(sizeof(int)*str);
     int *last_pos = malloc(sizeof(int)*str);
  
-    int fl=0;
+    int fl=-1;
     printf("------------------\n");
-    while (fl != 1)
+    while (fl != 0)
       {
         fl = move(early_pos, last_pos, fl ,board);     
  				if (fl != -1)
