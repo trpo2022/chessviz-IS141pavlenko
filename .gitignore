@@ -5,5 +5,5 @@
 *obj/src/chessviz/*.o
 *obj/src/libchessviz/*.d
 *obj/src/libchessviz/*.o
-
+*obj/src/libchessviz/libchess.a
 
