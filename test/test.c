@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <ctest.h>
 #define N 2
+
 CTEST(chess_suite, test_check_mate) 
 {
 	char tmp[] = {'#'};
