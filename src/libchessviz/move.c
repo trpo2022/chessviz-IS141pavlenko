@@ -1,10 +1,8 @@
 #include <libchessviz/chess.h>
 #include <stdio.h>
 
-
 int move(int* early_pos, int* last_pos, int fl, char board[n][n])
 {
-
     char tmp[str];
     scanf("%s", tmp);
 
@@ -58,4 +56,3 @@ int move(int* early_pos, int* last_pos, int fl, char board[n][n])
     }
     return fl;
 }
-
