@@ -42,4 +42,5 @@ clean:
 	rm obj/src/libchessviz/*.o
 	rm obj/src/chessviz/*.d
 	rm obj/src/libchessviz/*.d
-	rm obj/test/*.o obj/test/*.d
+	rm obj/test/*.o
+	rm obj/test/*.d

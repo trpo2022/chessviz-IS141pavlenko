@@ -6,4 +6,5 @@
 *obj/src/libchessviz/*.d
 *obj/src/libchessviz/*.o
 *obj/src/libchessviz/libchess.a
-
+*obj/test*.o
+*obj/test*.d
