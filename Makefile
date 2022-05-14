@@ -5,7 +5,7 @@ CPPFLAGS = -MMD
 bin/main: obj/src/chessviz/main.o obj/src/libchessviz/libchess.a
 	gcc $(CFLAGS) -o $@ $^
 
-bin/test: obj/test/main.o obj/src/libchessviz/libchess.a
+bin/test: obj/test/main.o obj/test/test.o obj/src/libchessviz/libchess.a
 	gcc $(CFLAGS) -o $@ $^
 
 
