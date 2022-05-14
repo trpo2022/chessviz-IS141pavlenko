@@ -33,4 +33,3 @@ CTEST(chess_suite, test_move)
     res = pos[1];
     ASSERT_EQUAL(exp, res);
 }
-
