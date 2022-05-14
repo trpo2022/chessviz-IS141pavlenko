@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <ctest.h>
 #define N 2
-CTEST(chess_suite, test_check_mate)
-{
+CTEST(chess_suite, test_check_mate) {
 	char tmp[] = {'#'};
 
 	int res; 
@@ -14,8 +13,7 @@ CTEST(chess_suite, test_check_mate)
     ASSERT_EQUAL(exp, res);
 }
 
-CTEST(chess_suite, test_check_mate2)
-{
+CTEST(chess_suite, test_check_mate2) {
 	char tmp[] = {'e'};
 
 	int res; 
@@ -25,8 +23,7 @@ CTEST(chess_suite, test_check_mate2)
     ASSERT_EQUAL(exp, res);
 }
 
-CTEST(chess_suite, test_move)
-{
+CTEST(chess_suite, test_move) {
 	char tmp[] = {'e', '2', '-', 'e', '4'};
 	int pos[N];
 	find_pos(tmp, pos);
