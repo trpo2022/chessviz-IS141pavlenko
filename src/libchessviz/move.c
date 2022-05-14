@@ -1,18 +1,10 @@
 #include <libchessviz/chess.h>
 #include <stdio.h>
 
-int check_motion(const int *early_pos, char board[n][n])
-{
-    if (board[early_pos[0]][earpy_pos[1]] == 'K') {
-      if ((board[early_pos[0]-1][earpy_pos[1]-1) == ' ' || (board[early_pos[0]-1][earpy_pos[1]-1) == 'p' || (board[early_pos[0]-1][earpy_pos[1]-1) == 'r' || (board[early_pos[0]-1][earpy_pos[1]-1) == 'n' || (board[early_pos[0]-1][earpy_pos[1]-1) == 'b' || (board[early_pos[0]-1][earpy_pos[1]-1) == 'q') {
-		    return 1;
-      }
-    }
-}
 
 int move(int* early_pos, int* last_pos, int fl, char board[n][n])
 {
-    char figure;
+
     char tmp[str];
     scanf("%s", tmp);
 
@@ -55,7 +47,7 @@ int move(int* early_pos, int* last_pos, int fl, char board[n][n])
             }
         }
     }
-    check_motion(early_pos, board);
+    
     if (last_pos[0] != 8 && early_pos[0] != 8 && last_pos[1] != 0
         && early_pos[1] != 0) {
         board[last_pos[0]][last_pos[1]] = board[early_pos[0]][early_pos[1]];
