@@ -33,7 +33,7 @@ obj/test/main.o: test/main.c
 
 run/main:
 	./bin/main
-	
+
 run/test:
 	./bin/test
 
