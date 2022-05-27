@@ -51,6 +51,7 @@ int move(int* early_pos, int* last_pos, int fl, char board[n][n])
         board[last_pos[0]][last_pos[1]] = board[early_pos[0]][early_pos[1]];
         board[early_pos[0]][early_pos[1]] = ' ';
     } else {
+        printf("Не корректный ход!\n");
         return -1;
     }
     return fl;
