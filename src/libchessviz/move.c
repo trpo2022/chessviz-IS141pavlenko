@@ -45,7 +45,7 @@ int move(int* early_pos, int* last_pos, int fl, char board[n][n])
             }
         }
     }
-    
+
     if (last_pos[0] != 8 && early_pos[0] != 8 && last_pos[1] != 0
         && early_pos[1] != 0) {
         board[last_pos[0]][last_pos[1]] = board[early_pos[0]][early_pos[1]];
